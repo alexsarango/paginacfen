@@ -1,5 +1,4 @@
 const navEl = document.querySelector(".navbar");
-const wavinghand = document.querySelector(".waving-hand");
 
 window.addEventListener('scroll',() => {
     if (window.scrollY > 50) {
@@ -17,7 +16,6 @@ const links = document.querySelectorAll(".nav-menu-link");
 hamburger.addEventListener("click", () => {
     navMenu.classList.toggle("active");
     hamburger.classList.toggle("active");
-    wavinghand.classList.remove('waving-hand');
 });
 
 window.addEventListener("resize", () => {
@@ -38,23 +36,3 @@ function closeMenu() {
       });
     });
 }
-
-let darkmode = localStorage.getItem('darkmode');
-const themeSwitch = document.getElementById('theme-switch');
-
-const enableDarkmode = () => {
-    document.body.classList.add('darkmode')
-    localStorage.setItem('darkmode', 'active')
-}
-
-const disableDarkmode = () => {
-    document.body.classList.remove('darkmode')
-    localStorage.setItem('darkmode', null)
-}
-
-if(darkmode === "active") enableDarkmode()
-
-themeSwitch.addEventListener("click", () => {
-    darkmode = localStorage.getItem('darkmode')
-    darkmode !== "active" ? enableDarkmode() : disableDarkmode()
-})
