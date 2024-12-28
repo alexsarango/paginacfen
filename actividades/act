@@ -1,0 +1,259 @@
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title>Actividades</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/7df530b92f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img class="logo" id="myImage" src="../img/logos/LE_3.png">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Actividades</a></li>
+                <li><a href="#">Directivas</a></li>
+                <li><a href="#">Comisiones</a></li>
+                <li><a href="#">Historia</a></li>
+                <li><a href="#">Contáctanos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Actividades</h1>
+        <div class="actividades">
+            <!-- Actividad 1 -->
+            <!-- Cuadro 1 -->
+            <div class="cuadro">
+                <h2>Vanguard</h2>
+                <p>  
+                Un master o doctor que domine el idioma inglés, a la vez que tenga mucho conocimiento en algún campo específico 
+                de la ciencia, realiza una ponencia ante personas académicas interesadas en su tema fomentando la divulgación
+                y el intercambio de conocimientos. Esta actividad fortalece la compresión del inglés, idioma universal de la ciencia
+                ya que el 97% de las publicaciones científicas se encuentran en este idioma. 
+                </p>
+                <span href="#" class="more-info">Más información</span>
+            </div>
+            <!-- Cuadro 2 -->
+            <div class="cuadro">
+                <div class="imagen">
+                    <img src="imagenes/Vanguard_Viejo_1.jpg" alt="Vanguard 1">
+                </div>
+            </div>
+            <!-- Actividad 2 -->
+            <div class="cuadro">
+                <h2>Café científico</h2>
+                <p>
+                Se dice que un sistema cualquiera, mecánico, eléctrico, neumático, etc., es un oscilador armónico si,
+                cuando se deja en libertad fuera de su posición de equilibrio, vuelve hacia ella describiendo oscilaciones 
+                sinusoidales, o sinusoidales amortiguadas en torno a dicha posición estable.
+                El ejemplo es el de una masa colgada a un resorte. Cuando se aleja la masa de su posición de reposo, el resorte 
+                ejerce sobre la masa una fuerza que es proporcional al desequilibrio (distancia a la posición de reposo) y que está 
+                dirigida hacia la posición de equilibrio. 
+                </p>
+                <span href="#" class="more-info">Más información</span>
+            </div>
+            <div class="cuadro">
+                <img src="imagenes/Chimborazo.jpg" alt="Actividad 2">
+            </div>
+
+            <!-- Actividad 3 -->
+            <div class="cuadro">
+                <h2>Fería de clubes</h2>
+                <p>
+                Se dice que un sistema cualquiera, mecánico, eléctrico, neumático, etc., es un oscilador armónico si,
+                cuando se deja en libertad fuera de su posición de equilibrio, vuelve hacia ella describiendo oscilaciones 
+                sinusoidales, o sinusoidales amortiguadas en torno a dicha posición estable.
+                El ejemplo es el de una masa colgada a un resorte. Cuando se aleja la masa de su posición de reposo, el resorte 
+                ejerce sobre la masa una fuerza que es proporcional al desequilibrio (distancia a la posición de reposo) y que está 
+                dirigida hacia la posición de equilibrio. 
+                </p>
+                <span href="#" class="more-info">Más información</span>
+            </div>
+            <div class="cuadro">
+                <img src="imagenes/Chimborazo.jpg" alt="Actividad 2">
+            </div>
+
+            <!-- Actividad 4 -->
+            <div class="cuadro">
+                <h2>TOAA</h2>
+                <p>
+                Se dice que un sistema cualquiera, mecánico, eléctrico, neumático, etc., es un oscilador armónico si,
+                cuando se deja en libertad fuera de su posición de equilibrio, vuelve hacia ella describiendo oscilaciones 
+                sinusoidales, o sinusoidales amortiguadas en torno a dicha posición estable.
+                El ejemplo es el de una masa colgada a un resorte. Cuando se aleja la masa de su posición de reposo, el resorte 
+                ejerce sobre la masa una fuerza que es proporcional al desequilibrio (distancia a la posición de reposo) y que está 
+                dirigida hacia la posición de equilibrio. 
+                </p>
+                <span href="#" class="more-info">Más información</span>
+            </div>
+            <div class="cuadro">
+                <img src="imagenes/Chimborazo.jpg" alt="Actividad 2">
+            </div>
+
+            <!-- Actividad 5 -->
+            <div class="cuadro">
+                <h2>Experimentos abiertos</h2>
+                <p>
+                Se dice que un sistema cualquiera, mecánico, eléctrico, neumático, etc., es un oscilador armónico si,
+                cuando se deja en libertad fuera de su posición de equilibrio, vuelve hacia ella describiendo oscilaciones 
+                sinusoidales, o sinusoidales amortiguadas en torno a dicha posición estable.
+                El ejemplo es el de una masa colgada a un resorte. Cuando se aleja la masa de su posición de reposo, el resorte 
+                ejerce sobre la masa una fuerza que es proporcional al desequilibrio (distancia a la posición de reposo) y que está 
+                dirigida hacia la posición de equilibrio. 
+                </p>
+                <span href="#" class="more-info">Más información</span>
+            </div>
+            <div class="cuadro">
+                <img src="imagenes/Chimborazo.jpg" alt="Actividad 2">
+            </div>
+
+            <!-- Actividad 6 -->
+            <div class="cuadro">
+                <h2>Concurso de integrales</h2>
+                <p>
+                Se dice que un sistema cualquiera, mecánico, eléctrico, neumático, etc., es un oscilador armónico si,
+                cuando se deja en libertad fuera de su posición de equilibrio, vuelve hacia ella describiendo oscilaciones 
+                sinusoidales, o sinusoidales amortiguadas en torno a dicha posición estable.
+                El ejemplo es el de una masa colgada a un resorte. Cuando se aleja la masa de su posición de reposo, el resorte 
+                ejerce sobre la masa una fuerza que es proporcional al desequilibrio (distancia a la posición de reposo) y que está 
+                dirigida hacia la posición de equilibrio. 
+                </p>
+                <span href="#" class="more-info">Más información</span>
+            </div>
+            <div class="cuadro">
+                <img src="imagenes/Chimborazo.jpg" alt="Actividad 2">
+            </div>
+
+            <!-- Actividad 7 -->
+            <div class="cuadro">
+                <h2>Exposición de graduados</h2>
+                <p>
+                Se dice que un sistema cualquiera, mecánico, eléctrico, neumático, etc., es un oscilador armónico si,
+                cuando se deja en libertad fuera de su posición de equilibrio, vuelve hacia ella describiendo oscilaciones 
+                sinusoidales, o sinusoidales amortiguadas en torno a dicha posición estable.
+                El ejemplo es el de una masa colgada a un resorte. Cuando se aleja la masa de su posición de reposo, el resorte 
+                ejerce sobre la masa una fuerza que es proporcional al desequilibrio (distancia a la posición de reposo) y que está 
+                dirigida hacia la posición de equilibrio. 
+                </p>
+                <span href="#" class="more-info">Más información</span>
+            </div>
+            <div class="cuadro">
+                <img src="imagenes/Chimborazo.jpg" alt="Actividad 2">
+            </div>
+
+            <!-- Actividad 8 -->
+            <div class="cuadro">
+                <h2>Intercambio entre universidades</h2>
+                <p>
+                Se dice que un sistema cualquiera, mecánico, eléctrico, neumático, etc., es un oscilador armónico si,
+                cuando se deja en libertad fuera de su posición de equilibrio, vuelve hacia ella describiendo oscilaciones 
+                sinusoidales, o sinusoidales amortiguadas en torno a dicha posición estable.
+                El ejemplo es el de una masa colgada a un resorte. Cuando se aleja la masa de su posición de reposo, el resorte 
+                ejerce sobre la masa una fuerza que es proporcional al desequilibrio (distancia a la posición de reposo) y que está 
+                dirigida hacia la posición de equilibrio. 
+                </p>
+                <span href="#" class="more-info">Más información</span>
+            </div>
+            <div class="cuadro">
+                <img src="imagenes/Chimborazo.jpg" alt="Actividad 2">
+            </div>
+            
+            <!-- Actividad 9 -->
+            <div class="cuadro">
+                <h2>Torneo de Budokai Tenkachi</h2>
+                <p>
+                Se dice que un sistema cualquiera, mecánico, eléctrico, neumático, etc., es un oscilador armónico si,
+                cuando se deja en libertad fuera de su posición de equilibrio, vuelve hacia ella describiendo oscilaciones 
+                sinusoidales, o sinusoidales amortiguadas en torno a dicha posición estable.
+                El ejemplo es el de una masa colgada a un resorte. Cuando se aleja la masa de su posición de reposo, el resorte 
+                ejerce sobre la masa una fuerza que es proporcional al desequilibrio (distancia a la posición de reposo) y que está 
+                dirigida hacia la posición de equilibrio. 
+                </p>
+                <span href="#" class="more-info">Más información</span>
+            </div>
+            <div class="cuadro">
+                <img src="imagenes/Chimborazo.jpg" alt="Actividad 2">
+            </div>
+
+            <!-- Actividad 10 -->
+            <div class="cuadro">
+                <h2>Exposición de un paper de actualidad</h2>
+                <p>
+                Se dice que un sistema cualquiera, mecánico, eléctrico, neumático, etc., es un oscilador armónico si,
+                cuando se deja en libertad fuera de su posición de equilibrio, vuelve hacia ella describiendo oscilaciones 
+                sinusoidales, o sinusoidales amortiguadas en torno a dicha posición estable.
+                El ejemplo es el de una masa colgada a un resorte. Cuando se aleja la masa de su posición de reposo, el resorte 
+                ejerce sobre la masa una fuerza que es proporcional al desequilibrio (distancia a la posición de reposo) y que está 
+                dirigida hacia la posición de equilibrio. 
+                </p>
+                <span href="#" class="more-info">Más información</span>
+            </div>
+            <div class="cuadro">
+                <img src="imagenes/Chimborazo.jpg" alt="Actividad 2">
+            </div>
+
+            <!-- Actividad 11 -->
+            <div class="cuadro">
+                <h2>Vídeos divulgativos</h2>
+                <p>
+                Se dice que un sistema cualquiera, mecánico, eléctrico, neumático, etc., es un oscilador armónico si,
+                cuando se deja en libertad fuera de su posición de equilibrio, vuelve hacia ella describiendo oscilaciones 
+                sinusoidales, o sinusoidales amortiguadas en torno a dicha posición estable.
+                El ejemplo es el de una masa colgada a un resorte. Cuando se aleja la masa de su posición de reposo, el resorte 
+                ejerce sobre la masa una fuerza que es proporcional al desequilibrio (distancia a la posición de reposo) y que está 
+                dirigida hacia la posición de equilibrio. 
+                </p>
+                <span href="#" class="more-info">Más información</span>
+            </div>
+            <div class="cuadro">
+                <img src="imagenes/Chimborazo.jpg" alt="Actividad 2">
+            </div>
+
+            <!-- Actividad 12 -->
+            <div class="cuadro">
+                <h2>Cursos académicos, vacacionales y a comunidades</h2>
+                <p>
+                Se dice que un sistema cualquiera, mecánico, eléctrico, neumático, etc., es un oscilador armónico si,
+                cuando se deja en libertad fuera de su posición de equilibrio, vuelve hacia ella describiendo oscilaciones 
+                sinusoidales, o sinusoidales amortiguadas en torno a dicha posición estable.
+                El ejemplo es el de una masa colgada a un resorte. Cuando se aleja la masa de su posición de reposo, el resorte 
+                ejerce sobre la masa una fuerza que es proporcional al desequilibrio (distancia a la posición de reposo) y que está 
+                dirigida hacia la posición de equilibrio. 
+                </p>
+                <span href="#" class="more-info">Más información</span>
+            </div>
+            <div class="cuadro">
+                <img src="imagenes/Chimborazo.jpg" alt="Actividad 2">
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="logo-footer">
+            <img src="../img/logos/LE_3.png" alt="Logo">
+        </div>
+        <p>ESPOCH, Riobamba, Ecuador</p>
+        <div class="social-media">
+            <a class="facebook" href="https://www.facebook.com/emmynoetherclub" target="_blank">
+                <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a class="instagram" href="https://www.instagram.com/emmynoetherclub/" target="_blank">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="whatsapp" href="https://www.whatsapp.com" target="_blank">
+                <i class="fa-brands fa-whatsapp"></i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

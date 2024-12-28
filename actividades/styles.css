@@ -1,0 +1,135 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgb(70, 130, 180);
+}
+
+header .logo img {
+    width: 150px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #d70000;
+}
+
+/* Main Section */
+main {
+    padding: 40px;
+    background-color: #fff;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.actividades {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    
+}
+
+.cuadro {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-content: center;
+    justify-content:center;
+}
+
+.cuadro img {
+    width: 100%;
+    border-radius: 10px;
+    height: auto;
+    transition: transform 0.4s; /* Animación para hacer zoom al pasar el ratón */
+}
+
+.cuadro img:hover {
+    transform: scale(1.05);
+}
+
+/* "Más información" estilo */
+.more-info {
+    color: #007bff;
+    cursor: pointer;
+}
+
+.more-info:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    background-color: rgb(70, 130, 180);
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+footer .logo-footer img {
+    width: 150px;
+}
+
+footer .social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+footer .social-media .facebook {
+    color: #1877F2;
+    font-size: 250%;
+}
+
+footer .social-media .instagram {
+    color: #E1306C;
+    font-size: 250%;
+}
+
+footer .social-media .whatsapp {
+    color: #25D366;
+    font-size: 250%;
+}
+
+footer .social-media a{
+    font-size: 30px;
+    transition: all ease 400ms;
+ }
+
+footer .social-media a:hover{
+    color:#0d0354;
+    transform: scale(1.5);
+ }
+
+
+ 
