@@ -242,16 +242,32 @@
         </div>
         <p>ESPOCH, Riobamba, Ecuador</p>
         <div class="social-media">
-            <a class="facebook" href="https://www.facebook.com/emmynoetherclub" target="_blank">
+            <a href="https://www.facebook.com/emmynoetherclub" class="icon" target="_blank">
                 <i class="fa-brands fa-facebook"></i>
             </a>
-            <a class="instagram" href="https://www.instagram.com/emmynoetherclub/" target="_blank">
+            <a href="https://www.instagram.com/emmynoetherclub/" class="icon" target="_blank">
                 <i class="fa-brands fa-instagram"></i>
             </a>
-            <a class="whatsapp" href="https://www.whatsapp.com" target="_blank">
+            <a href="https://www.whatsapp.com" class="icon" target="_blank">
                 <i class="fa-brands fa-whatsapp"></i>
             </a>
+            <a href="https://twitter.com/" class="icon" target="_blank">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="https://github.com/" class="icon" target="_blank">
+                <i class="fa-brands fa-github"></i>
+            </a>
+            <a href="https://open.spotify.com/" class="icon" target="_blank">
+                <i class="fa-brands fa-spotify"></i>
+            </a>
+            <a href="https://linkedin.com/" class="icon" target="_blank">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://www.tiktok.com/es/" class="icon" target="_blank">
+                <i class="fa-brands fa-tiktok"></i>
+            </a>
         </div>
+        <div style="flex: 1 1 auto;"></div>
     </footer>
 
     <script src="script.js"></script>
