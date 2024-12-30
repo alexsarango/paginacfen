@@ -62,6 +62,27 @@ h1 {
     text-align: center;
     align-content: center;
     justify-content:center;
+    margin: 20px auto;
+}
+
+.cuadro h2 {
+    margin: 10px 0;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.cuadro p {
+    margin: 10px 0;
+    font-size: 1.2rem;
+    color: #333;
+    text-align: justify;
+    margin-bottom: 30px;
+}   
+
+.cuadro span {
+    font-weight: bold;
+    margin-bottom: 20px;
 }
 
 .cuadro img {
@@ -90,35 +111,33 @@ h1 {
 footer {
     background-color: rgb(70, 130, 180);
     gap: 20px;
-    padding: 20px;
+    padding: 20px 200px;
     text-align: center;
     justify-content: center;
+    align-content: center;
+    display: flex;
 }
 
 footer .logo-footer img {
-    width: 150px;
+    width: 180px;
+    height: auto;
+}
+footer .ubicacion {
+    color: #000000;
+    font-weight: bold;
+    justify-content: center;
+    align-content: center;
 }
 
 footer .social-media {
     position: static;
     text-align: center;
     width: 100%;
-    height: 900px;
-    display: flex;
+    height: auto;
+    display:flex;
     justify-content: center;
     gap: 20px;
-    margin-top: 20px;
 }
-
-.footer .social-media iframe {
-    position: static;
-    overflow: hidden;
-    text-align: center;
-    width: 100%;
-    border:none;
-    height: 900px;
-    background-color: var(--base-color);
-}   
 
 /* contact section - social media button */
 *,
@@ -126,7 +145,7 @@ footer .social-media {
 ::after {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+
 }
 
 .icon {
@@ -152,10 +171,6 @@ footer .social-media {
   color: #fff;
 }
 
-.icon:hover:has(.fa-x-twitter) {
-  background-color: #000;
-}
-
 .icon:hover:has(.fa-facebook) {
     background-color: #316FF6;
 }
@@ -165,12 +180,7 @@ footer .social-media {
 }
 
 .icon:hover:has(.fa-tiktok) {
-    background-image: radial-gradient(
-    circle at 30% 107%,
-    #00f2ea 45%,
-    #000000 5%,
-    #ff0050 0%,
-  );
+    background-color: #000;
 }
 
 .icon:hover:has(.fa-instagram) {
@@ -182,27 +192,5 @@ footer .social-media {
     #d6249f 60%,
     #285aeb 90%
   );
-}
-
-.icon:hover:has(.fa-github) {
-  background-color: #000;
-}
-
-.icon:hover:has(.fa-spotify) {
-  background-color: green;
-}
-
-.icon:hover:has(.fa-linkedin) {
-  background-color: blue;
-}
-
-.flex-center {
-    width: 100%;
-    min-height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0px 0px 30px 0px;
-}
-
+} 
  
