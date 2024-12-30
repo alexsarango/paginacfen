@@ -216,7 +216,7 @@ footer .social-media {
     border: 1px solid #ccc;
     border-radius: 8px;
     padding: 16px;
-    width: 600px; /* Ajustar el ancho de los cuadros para arreglar la disposición */
+    width:40%; /* Ajustar el ancho de los cuadros para arreglar la disposición */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 .comision-header {
