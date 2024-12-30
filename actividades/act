@@ -1,4 +1,3 @@
-
 <html lang="es">
 <head>
     <meta charset="UTF-8">
@@ -51,7 +50,7 @@
                 <h2>Café científico</h2>
                 <p>
                 Se dice que un sistema cualquiera, mecánico, eléctrico, neumático, etc., es un oscilador armónico si,
-                cuando se deja en libertad fuera de su posición de equilibrio, vuelve hacia ella describiendo oscilaciones 
+                cuando se deja en libertad skereeee fuera de su posición de equilibrio, vuelve hacia ella describiendo oscilaciones 
                 sinusoidales, o sinusoidales amortiguadas en torno a dicha posición estable.
                 El ejemplo es el de una masa colgada a un resorte. Cuando se aleja la masa de su posición de reposo, el resorte 
                 ejerce sobre la masa una fuerza que es proporcional al desequilibrio (distancia a la posición de reposo) y que está 
@@ -240,7 +239,6 @@
         <div class="logo-footer">
             <img src="../img/logos/LE_3.png" alt="Logo">
         </div>
-        <p>ESPOCH, Riobamba, Ecuador</p>
         <div class="social-media">
             <a href="https://www.facebook.com/emmynoetherclub" class="icon" target="_blank">
                 <i class="fa-brands fa-facebook"></i>
@@ -251,23 +249,11 @@
             <a href="https://www.whatsapp.com" class="icon" target="_blank">
                 <i class="fa-brands fa-whatsapp"></i>
             </a>
-            <a href="https://twitter.com/" class="icon" target="_blank">
-                <i class="fa-brands fa-x-twitter"></i>
-            </a>
-            <a href="https://github.com/" class="icon" target="_blank">
-                <i class="fa-brands fa-github"></i>
-            </a>
-            <a href="https://open.spotify.com/" class="icon" target="_blank">
-                <i class="fa-brands fa-spotify"></i>
-            </a>
-            <a href="https://linkedin.com/" class="icon" target="_blank">
-                <i class="fa-brands fa-linkedin"></i>
-            </a>
-            <a href="https://www.tiktok.com/es/" class="icon" target="_blank">
+            <a href="https://www.tiktok.com/@emmynoetherclub" class="icon" target="_blank">
                 <i class="fa-brands fa-tiktok"></i>
             </a>
         </div>
-        <div style="flex: 1 1 auto;"></div>
+        <p class="ubicacion">ESPOCH, Riobamba, Ecuador</p>
     </footer>
 
     <script src="script.js"></script>
