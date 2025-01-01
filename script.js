@@ -1,38 +1,10 @@
-const navEl = document.querySelector(".navbar");
-
-window.addEventListener('scroll',() => {
-    if (window.scrollY > 50) {
-        navEl.classList.add('nav-scrolled');
-    }
-    else if (window.scrollY <= 50) {
-        navEl.classList.remove('nav-scrolled');
-    }
-});
-
-const hamburger = document.querySelector(".hamburger");
-const navMenu = document.querySelector(".nav-menu");
-const links = document.querySelectorAll(".nav-menu-link");
-
-hamburger.addEventListener("click", () => {
-    navMenu.classList.toggle("active");
-    hamburger.classList.toggle("active");
-});
-
-window.addEventListener("resize", () => {
-    if (window.matchMedia("(max-width: 550px)").matches) {
-      closeMenu();
-    }
-});
-
-if (window.matchMedia("(max-witdh: 550px").matches) {
-    closeMenu();
-}
-
-function closeMenu() {
-    links.forEach((link) => {
-      link.addEventListener("click", () => {
-        navMenu.classList.remove("active");
-        hamburger.classList.remove("active");
-      });
+// Lógica para el hover sobre los cuadros de "Más información"
+document.querySelectorAll('.more-info').forEach(item => {
+    item.addEventListener('mouseover', () => {
+        item.style.color = "#0056b3";
     });
-}
+
+    item.addEventListener('mouseout', () => {
+        item.style.color = "#007bff";
+    });
+});
