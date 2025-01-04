@@ -290,3 +290,56 @@ footer .social-media {
     max-width: 100%;
     margin-bottom: 296px;
 }
+
+.block {
+    display: flex;
+    gap: 20px;
+}
+
+.text-block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 1.2rem;
+    text-align: center;
+    border-radius: 8px;
+    padding: 20px;
+    align-content: center;
+    justify-content: center;
+}
+
+.text-block p{
+    text-align: justify;
+}
+
+.text-block img {
+    width: 100%;
+    height: auto;
+}
+
+.text-block ul {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.text-block ul li{
+    margin-left: 20px;
+    padding-top: 20px;
+    text-align: left;
+}
+
+.text-block a {
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.text-block a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
