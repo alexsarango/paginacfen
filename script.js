@@ -24,7 +24,7 @@ let imagenes = [
         "url": "assets/carrucel/militar.jpg",
     },
     {
-        "url": "assets/carrucel/chimborazo.jpg",
+        "url": "assets/inicio/volcan.jpg",
     },
     {
         "url": "assets/carrucel/vanguard.jpg",
