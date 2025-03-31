@@ -15,6 +15,8 @@ body {
     display: grid;
     min-height: 100dvh;
     grid-template-rows: auto 1fr auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color:#ffffff;
 }
 
 /* Encabezado */
@@ -24,18 +26,21 @@ header {
     align-items: center;
     padding: 20px;
     background-color: #1E2144;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header .logo img {
     width: 300px;
     height: auto;
     filter: contrast(0) brightness(10);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav a {
@@ -44,28 +49,145 @@ nav a {
     color: #ffffff;
     font-weight: bold;
     margin-right: 40px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav a:hover {
     color: gray;
 }
 
+/* Carrusel de imágenes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+.carrusel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.imagenes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.img{
+    box-shadow: 5px 5px 40px #1E2144;
+    height: 650px;
+    width: 1300px;
+    border-radius: 40px ;
+    margin: 5px;
+    object-fit: cover;
+    filter: saturate(150%);
+    
+}
+
+.texto{
+    overflow: hidden;
+    position: absolute;
+    flex-direction: column;
+    transform: translateY(0px);
+    margin-bottom: 9px;
+    backdrop-filter: blur(20px);
+    background-color: rgba(63, 106, 138, 0.21);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 30px;
+    
+}
+
+.texto h3{
+    text-shadow: 0px 0px 15px black;
+    padding: 20px;
+    color: white;
+    font-weight: 300;
+    font-size: 27px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+.texto p{
+    align-items: center;
+    padding: 20px;
+    color:white;
+    font-size: 0px;
+    font-weight: 300;
+    text-align: center;
+    align-content: justify;
+    justify-content:justify;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.imagenes .texto{
+    width: 600px;
+    height: 100px;
+    transition: 1s;
+    
+}
+
+.imagenes:hover .texto{
+    transition: height 1s, transform 1s, background-color 1s;
+    transform: translateY(-150px);
+    height: 300px;
+    background-color: #1E2144;
+    
+}
+
+.imagenes:hover .texto p{
+    transition: font-size 0s .2s linear;
+    font-size: 23px;
+    font-weight: 300;
+    text-shadow: 0px 0px 10px #000000;
+    
+}
+
+.puntos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.puntos p{
+    font-size: 80px;
+    font-weight: 500;
+    margin-top: -60px;
+    color: rgb(154, 151, 150);
+    
+}
+
+.puntos .bold{
+    font-weight: 700;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #1E2144;
+}
+
 /* Sección principal de actividades */
 main {
     padding: 40px;
     background-color: #fff;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 h1 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .actividades {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 
@@ -78,13 +200,25 @@ h1 {
     align-content: center;
     justify-content:center;
     margin: 20px auto;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    border: 4px solid #e2f0fb;
+    /*font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
 }
 
+.cuadro a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 .cuadro h2 {
     margin: 10px 0;
     font-size: 2.5rem;
     color: #333;
     margin-bottom: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cuadro p {
@@ -93,11 +227,13 @@ h1 {
     color: #333;
     text-align: justify;
     margin-bottom: 30px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }   
 
 .cuadro span {
     font-weight: bold;
     margin-bottom: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .cuadro img {
@@ -131,6 +267,7 @@ footer {
     justify-content: center;
     align-content: center;
     display: flex;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer .logo-footer img {
@@ -279,24 +416,36 @@ footer .social-media {
 
 .calendar iframe{
     overflow: hidden;
-    height: 100%;
     width: 100%;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
 }
 
 /* Contactanos */
 .contacto {
     overflow: hidden;
     width: 100%;
-    height: 1250px;
+    height: 100%;
     border: none;
 }
-.contacto iframe{
+.form1{
     overflow: hidden;
     width: 100%;
-    height: 1500px;
+    height: 2100px;
     border: none; 
     max-width: 100%;
-    margin-bottom: 296px;
+    margin-bottom: 10px;
+}
+
+.form2{
+    overflow: hidden;
+    width: 100%;
+    height: 1300px;
+    border: none; 
+    max-width: 100%;
+    margin-bottom: 10px;
 }
 
 .block {
@@ -316,6 +465,7 @@ footer .social-media {
     padding: 20px;
     align-content: center;
     justify-content: center;
+    border: 4px solid #e2f0fb;
 }
 
 .text-block p{
@@ -351,3 +501,19 @@ footer .social-media {
     color: #0056b3;
     text-decoration: underline;
 }
+
+/* Vídeo de Próximamente */
+.coming_soon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming_soon video{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    border-radius: 40px;
+}
+
